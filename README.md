@@ -6,4 +6,6 @@
 
 - git clone the repo 
 
-- vagrant up
+Go to the Vagrent dir and run the following command
+
+ vagrant up

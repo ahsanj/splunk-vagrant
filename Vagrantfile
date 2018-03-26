@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port" , guest:8000, host:8080 
   config.vm.box = "precise64"
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
-  config.vm.define "splunk-box" do |splunk|
+  config.vm.define "splunk7-box" do |splunk|
     splunk.vm.hostname = "splunk"
     splunk.vm.provision "shell", path: "install.sh"
     splunk.vm.provider "virtualbox" do |v|
