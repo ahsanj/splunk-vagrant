@@ -1,13 +1,23 @@
-# Vagrant
+# Install/setup Splunk 7.x on Vagrant 
 
-- Install Vagrant
+```
+Install Vagrant
 
-- Install VirtualBox
+Install VirtualBox
 
-- git clone the repo 
+Clone the repo 
 
 Go to the Vagrant dir and run the following command
 
- #vagrant up
+vagrant up
 
-Once the build is completed you can reach the splunk on  http://localhost:8080/
+Once the build is completed you can access the splunk on  http://localhost:8081/
+
+```
+
+```
+Login credentials
+
+Username: admin
+Password: changeme
+```
